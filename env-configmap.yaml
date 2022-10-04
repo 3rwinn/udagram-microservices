@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  # property-like keys; each key maps to a simple value
+  POSTGRES_HOST: udadb.cowjc3m4xf4p.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: udastore
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: megatesting
+  URL: http://localhost:8100
+
